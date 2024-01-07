@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #002339;
+    color: #fff;
+}
+
+
+.container {
+    margin: 12%;
+    width: 90%;
+    max-width: 700px;
+    /* background-color: aqua; */
+    /* height: 50vh; */
+}
+
+
+.container h1 {
+    font-size: 45px;
+    font-weight: 400;
+}
+
+
+.container h1 span {
+    /* padding-top: 50px; */
+    color: #019f55;
+    border-bottom: 4px solid #019f55;
+    padding-bottom: 7px;
+}
+
+
+.display {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 20px;
+    border-radius: 5px;
+}
+
+
+.display input {
+    border: none;
+    outline: none;
+    font-size: 25px;
+}
+
+
+.display .copy-image {
+    width: 30px;
+}
+
+
+.copy-image img {
+    width: 100%;
+    cursor: pointer;
+}
+
+
+button {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #019f55;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+button img {
+    width: 25px;
+    margin-right: 7px;
+}
